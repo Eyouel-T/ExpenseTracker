@@ -1,0 +1,11 @@
+.main {
+    background-color: lightblue;
+    max-width: 60%;
+    margin: auto;
+}
+
+body{
+    text-align: center;
+    margin: auto;
+    background-image: linear-gradient(to right ,rgb(78, 29, 29), red );
+}
