@@ -1,11 +1,33 @@
-.main {
-    background-color: lightblue;
-    max-width: 60%;
-    margin: auto;
-}
-
 body{
     text-align: center;
     margin: auto;
     background-image: linear-gradient(to right ,rgb(78, 29, 29), red );
+}
+.main {
+    background-color: lightblue;
+    max-width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.report{
+    min-width: 40%;
+    display:inline-block;
+    border:2px solid black;
+
+}
+.newTransaction{
+    min-width: 40%;
+    display: inline-block;
+    border:2px solid black;
+}
+.incomeTransaction{
+    background-color: #67f948;
+}
+.expenseTransaction{
+    background-color: #ff4242;
 }
