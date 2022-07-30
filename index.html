@@ -6,31 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expense tracker</title>
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
+    <script defer src="main.js"></script>
 </head>
 <body>
     <div class="main">
         <h1>Expense Tracker Application</h1>
         <h2>Balance</h2>
-        <h2>$505</h2>
-        <div class="report">Report
-            <p class="incomeTransaction">$205</p>
-            <p class="expenseTransaction">$301</p>
-            <p class="incomeTransaction">$405</p>
-            <p class="incomeTransaction">$651</p>
-            <p class="expenseTransaction">$123</p>
-            <p class="incomeTransaction">$890</p>
-        </div>
-        <div class="newTransaction">
-            Add transaction
+        <h2 id="balance">$505</h2>
+        <div class="twinSection">
+            <input type="radio" name="choice" id="income">
+            <label for="income">Income</label>
+            <input type="radio" name="choice" id="expense">
+            <label for="expense">Expense</label>
             <br>
-            <input type="text">
-            <button>add your income</button>
+            <input type="text" name="test" id="amount" placeholder="amount">
+            <label for="amount"></label>
             <br>
-            <input type="text">
-            <button>add your expense</button>
+            <input type="text" name="" id="description" placeholder="description">
+            <label for="description"></label>
+            <br>
+            <button id = "add">add</button>
             
         </div>
+        <br>
+        <div class="twinSection">Report
+            <ul id="report"></ul>
+            
+        </div>
+        
     </div>
 </body>
 </html>

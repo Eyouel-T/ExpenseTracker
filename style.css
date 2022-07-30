@@ -4,7 +4,7 @@ body{
     background-image: linear-gradient(to right ,rgb(78, 29, 29), red );
 }
 .main {
-    background-color: lightblue;
+    background-color: rgb(255, 255, 255);
     max-width: 60%;
     margin: auto;
     margin-top: 20px;
@@ -12,18 +12,22 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     overflow: hidden;
+    text-align: center;
 }
-
-.report{
+li{
+    list-style: none;
+}
+.twinSection{
     min-width: 40%;
     display:inline-block;
     border:2px solid black;
 
 }
-.newTransaction{
-    min-width: 40%;
-    display: inline-block;
-    border:2px solid black;
+#report{
+    max-width: 80%;
+}
+#description{
+    min-height: 40px;
 }
 .incomeTransaction{
     background-color: #67f948;
